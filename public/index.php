@@ -10,8 +10,7 @@ if(preg_match('/localhost/', $_SERVER['SERVER_NAME']) === 0){
 $cfg = new Iplox\Config([
     'directory' => dirname(__DIR__).DIRECTORY_SEPARATOR.'src',
     'namespace' => 'App',
-    'env' => $env,
-    'notFoundHandler' => 'NotFound->indexAction'
+    'env' => $env
 ]);
 
 

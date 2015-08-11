@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Classes;
 use Iplox\Mvc\TemplateController;
 
 class NotFound extends TemplateController {
