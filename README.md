@@ -3,7 +3,7 @@ IploxPhp Mvc Skeleton
 
 This is a skeleton mvc application to get started with the IploxPhp framework. This code will also serve as starting point and reduce boilerplate code for any project. 
 
-More information about the IploxPhp framework visit the [project website](http://iplox.org/iploxphp).
+For more information about the IploxPhp framework visit the [project website](http://iplox.org/iploxphp).
 
 Getting started
 -----
