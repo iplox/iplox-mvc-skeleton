@@ -1,0 +1,19 @@
+# Hide IntelliJ project folder and files.
+*.iml
+.idea/
+
+# Hide vendors directories: composer's, npm's and bower's
+vendor/
+node_modules/
+public/assets/vendor/ # bower use is bower_components by defaul but was modified in the .bowerrc file to be this one.
+
+# Hide backup files generated in Windows systems.
+*.*~
+.*~
+*~
+
+# Hide app-generated files excepting the .gitkeep files (they allow to maintain the folder structure).
+src/views/compiles/**/*
+!src/views/compiles/.gitkeep
+src/views/cache/**/*
+!src/views/cache/.gitkeep

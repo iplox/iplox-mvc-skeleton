@@ -1,0 +1,32 @@
+{
+  "name": "iploxphp-mvc-skeleton",
+  "version": "0.0.0",
+  "authors": [
+    "Jr. Stanley Zapata <jrszapata@hotmail.com>"
+  ],
+  "description": "A skeleton mvc app using IploxPhp, Smarty, jQuery and Bootstrap.",
+  "keywords": [
+    "skeleton",
+    "iploxphp",
+    "iplox",
+    "smarty",
+    "jquery",
+    "bootstrap",
+    "mvc",
+    "application"
+  ],
+  "license": "MIT",
+  "homepage": "http://iplox.org",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4"
+  }
+}

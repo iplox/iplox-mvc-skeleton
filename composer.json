@@ -1,0 +1,23 @@
+{
+    "name": "iplox/iploxphp-mvc-skeleton",
+    "description": "A skeleton mvc-app using IploxPhp, Smarty, jQuery and Bootstrap.",
+    "authors": [
+        {
+            "name": "Jr. Stanley Zapata",
+            "email": "jrszapata@hotmail.com"
+        }
+    ],
+    "repositories": [
+        {"type": "vcs", "url": "git@bitbucket.org:iplox/iploxphp.git"}
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "iplox/iploxphp": "dev-master",
+        "smarty/smarty": "3.*"
+    },
+    "autoload":{
+        "psr-0":{
+            "App\\": "src/"
+        }
+    }
+}
