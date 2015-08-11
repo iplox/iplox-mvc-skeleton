@@ -4,7 +4,7 @@
     <section>
         <div class="jumbotron">
             <h1>IploxPhp MVC Skeleton Application</h1>
-            <span>Powered, by <a href="http://iplox.org/iploxphp" target="_blank">IploxPhp Framework</a>, obviously.</span>
+            <span>Powered by <a href="http://iplox.org/iploxphp" target="_blank">IploxPhp Framework</a>, obviously.</span>
         </div>
     </section>
 {/block}
