@@ -13,6 +13,5 @@ $cfg = new Iplox\Config([
     'env' => $env
 ]);
 
-
 $app = new Iplox\Mvc\Module($cfg);
 $app->init();
