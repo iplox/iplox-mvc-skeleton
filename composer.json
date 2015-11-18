@@ -1,6 +1,6 @@
 {
     "name": "iplox/mvc-skeleton",
-    "description": "A skeleton mvc-app using IploxPhp, Smarty, jQuery and Bootstrap.",
+    "description": "A skeleton mvc-app using Iplox, Smarty, jQuery and Bootstrap.",
     "authors": [
         {
             "name": "Jr. Stanley Zapata",
