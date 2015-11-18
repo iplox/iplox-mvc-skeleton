@@ -2,9 +2,10 @@
 
 include '../vendor/autoload.php';
 
-
-if(preg_match('/localhost/', $_SERVER['SERVER_NAME']) === 0){
+if(in_array($_SERVER['SERVER_NAME'], ['localhost', 'customedomain.local'])){
     $env = 'production';
+} else {
+    $env = 'development';
 }
 
 $cfg = new Iplox\Config([

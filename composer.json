@@ -1,5 +1,5 @@
 {
-    "name": "iplox/iploxphp-mvc-skeleton",
+    "name": "iplox/mvc-skeleton-app",
     "description": "A skeleton mvc-app using IploxPhp, Smarty, jQuery and Bootstrap.",
     "authors": [
         {
@@ -7,12 +7,8 @@
             "email": "jrszapata@hotmail.com"
         }
     ],
-    "repositories": [
-        {"type": "vcs", "url": "git@bitbucket.org:iplox/iploxphp.git"}
-    ],
-    "minimum-stability": "dev",
     "require": {
-        "iplox/iploxphp": "dev-master",
+        "iplox/iplox": "0.1.*",
         "smarty/smarty": "3.*"
     },
     "autoload":{

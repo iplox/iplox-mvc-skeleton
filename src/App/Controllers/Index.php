@@ -7,6 +7,6 @@ class Index extends TemplateController {
 
     public function indexAction()
     {
-        $this->show('index');
+        return $this->show('index');
     }
 }
