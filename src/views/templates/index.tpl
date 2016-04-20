@@ -1,4 +1,4 @@
-{extends file="master.tpl"}{/extends}
+{extends file="master.tpl"}
 
 {block "body"}
     <section>
